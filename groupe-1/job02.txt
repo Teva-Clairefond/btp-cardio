@@ -1,0 +1,6 @@
+touch -t 202502030528 yolo3.md
+truncate -s 14 yolo3.md
+chmod 256 yolo.md
+Je n'ai pas l'impression que la taille dépasse de 1 le contenu... la taille est de 14 et il y a 14 caractères.
+Le premier 'root' correspond à l'utilisateur propriétaire du fichier.
+Le deuxième 'root' correspond au groupe propriétaire du fichier.
