@@ -1,0 +1,8 @@
+touch -t 202501012047 test0
+chmod 2500 test0
+touch -t 202501012146 test1
+chmod 714 test1
+truncate -s 4 test1
+ln -s test0 test2
+touch -h -t 202501012220 test2
+
