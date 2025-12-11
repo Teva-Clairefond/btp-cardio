@@ -1,4 +1,4 @@
-echo 'Hello, World!' \n
+echo 'Hello, World!' 
 history
 touch yolo.md
 stat yolo.md
