@@ -1,7 +1,7 @@
-cat log.txt | grep 'POST' | grep '192.168.0.2'
-cat log.txt 2>/dev/null
-cat log.txt | grep 'HTTP' | awk '{print $9}' log.txt
-sort -k1,1 log.txt 
-awk '{print $1}' log.txt | sort -u
-awk '{if ($9==200) $9="OK_YOLO"; print}' log.txt
-awk '{print $1}' log.txt | sort | uniq -c
+cat logs.txt | grep 'POST' | grep '192.168.0.2'
+cat logs.txt 2>/dev/null
+cat logs.txt | grep 'HTTP' | awk '{print $9}' logs.txt
+sort -k1,1 logs.txt 
+awk '{print $1}' logs.txt | sort -u
+awk '{if ($9==200) $9="OK_YOLO"; print}' logs.txt
+awk '{print $1}' logs.txt | sort | uniq -c
